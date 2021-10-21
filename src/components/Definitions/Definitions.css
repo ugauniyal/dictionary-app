@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Roboto:wght@100&display=swap');
+
+.meaning {
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+.meanings {
+    overflow-y: auto;
+
+    /* Works on Firefox */
+    scrollbar-color: white black;
+    scrollbar-width: thin;
+    
+}
+
+
+/* Works on Chrome, Edge, and Safari */
+.meanings::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.25);
+	background-color: black;
+}
+
+.meanings::-webkit-scrollbar
+{
+	width: 5px;
+	background-color: gray;
+}
+
+.meanings::-webkit-scrollbar-thumb
+{
+	background-color: white;
+}

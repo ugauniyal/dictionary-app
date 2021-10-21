@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Roboto+Mono:wght@500&family=Roboto:wght@100&display=swap');
+
+.header {
+    align-items: center;
+    height: 35vh;
+    width: 100%;
+}
+
+.title {
+    font-size: 7vw;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 1000;
+}
+
+.search {
+    width: 100%;
+}
